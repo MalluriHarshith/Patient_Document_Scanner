@@ -1,0 +1,52 @@
+# Environment Variables
+.env
+*.env
+backend/.env
+frontend/.env
+
+# Node & Frontend
+node_modules/
+frontend/node_modules/
+.npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python & Backend
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/**/__pycache__/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv
+env/
+venv/
+ENV/
+
+# Uploaded Files Storage
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
